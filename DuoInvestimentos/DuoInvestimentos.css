@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 30px;
+  align-items: right;
+}
+
+.nome-logo {
+  color: #08678c;
+  font-weight: 900;
+ font-size: 34px;
+}
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  color: whitesmoke;
+  background-color: #08678c;
+  transition: 1s;
+  font-family: "Josefin Sans", sans-serif;
+}
+button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  color: #08678c;
+  background-color: #e5ece5 !important;
+  transition: 0.5s;
+}
+#texto-logo {
+  margin-left: 15px;
+font-style: bolder;
+color: white;
+}
+#Logo {
+  font-style: bold;
+  color: #e5ece5;
+}
+.informações {
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  padding: 3px;
+  border-color: #132f41;
+}
+.Cabeçalho {
+  size: 10px;
+  width: 22;
+  background-color: #132f41;
+}
+.informações::placeholder {
+  color: #132f41;
+  font-style: italic;
+}
