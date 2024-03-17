@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ramabhadra", sans-serif;
+}
+header {
+  height: 8vh;
+  width: 100vw;
+  background-color: #154255;
+  font-size: 20.4px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+#header-content {
+  position: relative;
+  bottom: 17%;
+}
+#links-header {
+  position: absolute;
+  left: 32%;
+  top: 3%;
+  margin: 22px 0;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.links {
+  margin-right: 47px;
+  cursor: pointer;
+}
+#DuoInvestiments-Logo {
+  height: 84px;
+  margin-left: 41px;
+}
+#Get-Starded {
+  color: #52b7da;
+  opacity: 81%;
+}
+#box1 {
+  height: 14vh;
+  text-align: center;
+  margin-top: 128px;
+}
+#Duo-word {
+  color: #277da1;
+}
+h1 {
+  font-size: 50.1px;
+  color: #154255;
+}
+h3 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #154255;
+}
+#box2 {
+  height: 65vh;
+  color: #154255;
+  font-size: 17.1px;
+  text-align: center;
+}
+#Learn-more-link {
+  font-size: 16.1px;
+  margin-top: 2px;
+}
+#p-main {
+  width: 625px;
+  position: relative;
+  display: inline-block;
+  bottom: 60px;
+}
+#illustration-1 {
+  display: inline-block;
+  height: 390px;
+  width: 448px;
+}
+#box3 {
+    height: 30vh;
+  text-align: center;
+  font-size: 19.7px;
+  color: #154255;
+}
+button {
+  border-color: #277da1;
+  font-size: 20.4px;
+  color: #154255;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 40px;
+  margin-top: 17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+    transform: translateY(-1px);
+}
+button:active {
+    opacity: 60%;
+}
+#p-footer {
+    position: relative;
+    left: 40%;
+    width: 287px;
+    top: 12%;
+}
+footer {
+    text-align: center;
+    background-color: #081B24;
+    height: 20vh;
+    width: 100vw;
+    color: white;
+    font-size: 12.1px;
+}
+#contacts {
+    position: relative;
+    top: 31px;
+}
+.links-footer {
+    height: 40px;
+    margin-left: 11px;
+}
