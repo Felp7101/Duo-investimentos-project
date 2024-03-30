@@ -6,7 +6,7 @@
 }
 header {
   height: 8vh;
-  width: 100vw;
+  width: 100%;
   background-color: #154255;
   font-size: 20.4px;
   color: white;
@@ -71,9 +71,7 @@ h3 {
 }
 #p-main {
   width: 625px;
-  position: relative;
   display: inline-block;
-  bottom: 60px;
 }
 #illustration-1 {
   display: inline-block;
